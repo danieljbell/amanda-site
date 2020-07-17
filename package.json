@@ -1,0 +1,17 @@
+{
+  "name": "amanda-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html css/*.scss img/*.jpg",
+    "build": "parcel build index.html css/*.scss img/.jpg*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
+  }
+}
