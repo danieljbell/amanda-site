@@ -241,7 +241,10 @@ textarea {
   color: inherit;
 }
 
-.work-experience {
+.work-experience,
+.community-involvement,
+.core-skills,
+.education {
   padding: 0;
   list-style-type: none;
   margin-top: 1.5rem;
@@ -291,6 +294,7 @@ textarea {
   position: relative;
   left: -5rem;
   width: calc(100% + 10rem);
+  margin: 4rem 0;
 
   hr {
     background-color: transparent;
@@ -300,3 +304,52 @@ textarea {
 
 }
 
+.community-involvement,
+.core-skills {
+  &:before {
+    content: 'Involvement';
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    li {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.core-skills {
+  list-style-type: disc;
+  margin: 0;
+  &:before {
+    content: 'Skills';
+  }
+
+  li {
+    margin-bottom: 0;
+  }
+
+}
+
+.education {
+  list-style-type: none;
+  &:before {
+    content: 'School';
+  }
+
+  .school {
+    font-weight: bold;
+  }
+
+  .college {
+
+  }
+
+  .major {
+
+  }
+
+
+}
