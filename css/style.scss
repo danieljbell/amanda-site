@@ -353,3 +353,88 @@ textarea {
 
 
 }
+
+@media screen and (max-width: 767px) {
+
+  .grid {
+    display: block;
+
+    > * {
+      display: block;
+      width: 100% !important;
+      padding: 0 !important;
+    }
+
+  }
+
+  .site-width {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  header .site-width {
+    padding: 0;
+  }
+
+  header .site-header {
+    min-height: 50vh;
+  }
+ 
+  h1 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+    span {
+      display: block;
+      font-size: 1.75rem;
+    }
+  }
+
+  .city {
+    font-size: 1.2rem;
+    // margin-bottom: 4rem !important;
+  }
+
+  .arkansas {
+    transform: translate(-50%, -50%) scale(1) rotate(-3deg) !important;
+  }
+
+  .header-contact {
+    li {
+      padding: 0 !important;
+      margin-bottom: 0.5rem;
+    }
+
+    .phone,
+    .email {
+      font-size: 1rem !important;
+    }
+
+    .phone {
+      text-align: left !important;
+    }
+
+  }
+
+  .site-nav {
+    a {
+      padding: 1rem;
+    }
+  }
+
+  .headshot img {
+    width: 100%;
+    // max-width: 100%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    max-width: 100%;
+  }
+
+  .bump-out {
+    left: 0;
+    width: 100%;
+  }
+
+}
