@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html,
@@ -435,6 +436,10 @@ textarea {
   .bump-out {
     left: 0;
     width: 100%;
+  }
+
+  #resume .button {
+    float: none;
   }
 
 }
